@@ -1,0 +1,26 @@
+{
+	"name": "startpage-search-themed",
+	"version": "1.1.0",
+	"description": "Web extension that adds startpage.com as a search engine to the Firefox browser, forcing the Black theme (for Dark Mode lovers).",
+	"author": "alexelcu",
+	"scripts": {
+		"bundle-black": "web-ext -s black-theme -a dist build --overwrite-dest",
+		"bundle-dark": "web-ext -s dark-theme -a dist build --overwrite-dest",
+		"bundle-night": "web-ext -s night-theme -a dist build --overwrite-dest",
+		"bundle": "npm run bundle-black && npm run bundle-dark && npm run bundle-night"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/alexandru/startpage-search"
+	},
+	"bugs": {
+		"url": "https://github.com/alexandru/startpage-search/issues"
+	},
+	"license": "BSD-3-Clause",
+	"keywords": [
+		"webextensions"
+	],
+	"devDependencies": {
+		"web-ext": "^4.3.0"
+	}
+}
