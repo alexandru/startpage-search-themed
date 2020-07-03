@@ -3,7 +3,7 @@
 	"name": "Startpage Search — Dark Theme",
 	"short_name": "startpage-search-dark",
 	"description": "Adds Startpage.com as a search engine, using the Dark theme.",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"icons": {
 		"70": "icons/70x70.png",
 		"144": "icons/144x144.png"
