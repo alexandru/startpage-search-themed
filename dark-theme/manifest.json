@@ -13,7 +13,7 @@
 			"favicon_url": "https://www.startpage.com/sp/spstatic/favicons/favicon-180x180.png",
 			"is_default": true,
 			"keyword": "!s",
-			"name": "Startpage Search",
+			"name": "Startpage.com",
 			"search_url": "https://www.startpage.com/do/dsearch?query={searchTerms}&cat=web&pl=opensearch&language=english&t=dark",
 			"suggest_url": "https://www.startpage.com/cgi-bin/csuggest?query={searchTerms}&limit=10&lang=english&format=json"
 		}
